@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price-Landing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="title">
+      <h1>CINEFLIX</h1>
+      <div id="toggle">
+        <input type="radio" id="monthly" name="toggle" checked />
+        <label for="monthly">Monthly</label>
+        <input type="radio" id="quarterly" name="toggle" />
+        <label for="quarterly">Quarterly</label>
+        <input type="radio" id="yearly" name="toggle" />
+        <label for="yearly">Yearly</label>
+        <div class="slider"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div class="plan" id="mobile">
+        <div>
+          <h2>Mobile</h2>
+          <h2 id="p-mobile"></h2>
+          <p>Users : 1</p>
+          <p>HD<br />(720p)</p>
+          <p>Max audio quality : Stereo</p>
+        </div>
+        <button id="getstarted">Get started</button>
+      </div>
+      <div class="plan" id="premium">
+        <div>
+          <h2>Premium</h2>
+          <h2 id="p-premium"></h2>
+          <p>All content<br />(Movies, Live sports, TV, Specials)</p>
+          <p>Watch on Tv or Laptop</p>
+          <p>Ads free movies and shows</p>
+          <p>Users : 4</p>
+          <p>4k (2160p)<br />+ Dolby Vision</p>
+          <p>Dolby Atmos</p>
+        </div>
+        <button id="getstarted">Get started</button>
+      </div>
+      <div class="plan" id="super">
+        <div>
+          <h2>Super</h2>
+          <h2 id="p-super"></h2>
+          <p>Watch on TV or Laptop</p>
+          <p>Users : 2</p>
+          <p>Full HD<br />(1080p)</p>
+          <p>Dolby Atmos</p>
+        </div>
+        <button id="getstarted">Get started</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
